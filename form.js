@@ -9,4 +9,4 @@ document.getElementById('contact form')
     var body="name:" + "\nEmail:" +email + "\nMessage:" + message;
     var mailto_link='mailto:meghashree8792@gmail.com' + '?subject=' + subject + '&body=' + encodeURIComponent(body);
     window.location.href=mailto_link;
-};
+});
